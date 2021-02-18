@@ -1,4 +1,5 @@
 body {
+  background: #FAFAD2;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
 }
@@ -23,6 +24,15 @@ header h1 a {
   padding-top: 2rem;
 }
 
+.nav-right a {
+  text-decoration: none;
+}
+
+.nav-right a:hover{
+  font-size: 26px;
+  color: green;
+}
+
 .post-entry {
   margin-bottom: 2rem;
 }
@@ -33,7 +43,7 @@ header h1 a {
 
 .post-entry h2 a,
 .post-entry h2 a:visited {
-  color: blue;
+  color: #4B0082;
   text-decoration: none;
 }
 
